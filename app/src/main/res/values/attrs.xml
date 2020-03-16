@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SplitView">
+
+
+    </declare-styleable>
+    <declare-styleable name="WelcomeView">
+        <attr name="rotate_duration" format="integer" />
+        <attr name="expand_duration" format="integer" />
+        <attr name="wave_duration" format="integer" />
+    </declare-styleable>
+
+
+</resources>

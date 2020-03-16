@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/starts" />
+
+    <com.carl.promotion.widget.welcome.WelcomeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:expand_duration="2000"
+        app:rotate_duration="1100"
+        app:wave_duration="8000" />
+    <!--    <com.carl.promotion.widget.welcome.WelcomeView-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        app:wave_duration="5000"-->
+    <!--        app:expand_duration="5000"-->
+    <!--        app:rotate_duration="5000"-->
+    <!--        android:layout_gravity="center" />-->
+
+</FrameLayout>
